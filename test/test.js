@@ -4,6 +4,6 @@ var app = require('../index.js');
 
 describe('GET /', function(){
     it('response with Hello World', function(done){
-        request(app).get('/').expect('Hello World', done);
+        request(app).get('/').expect('Hey World', done);
     });
 });
